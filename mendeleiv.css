@@ -1,0 +1,126 @@
+td
+{
+    font-size: 10px;
+    line-height: 5px;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h2
+{
+    font-size: 26px;
+}
+p
+{
+    line-height: 2px;
+}
+.titre
+{
+    border-bottom: 2px solid black;
+    width: 440px;
+  margin: auto;
+}
+.mendel
+{
+    text-align: center;
+    margin-top: 15px;
+}
+table
+{
+    margin: auto;
+}
+.H ,.C ,.N ,.O, .P ,.S ,.Se
+{
+    background-color: rgb(160, 152, 201);
+}
+.Li ,.Na ,.K ,.Rb ,.Cs ,.Fr
+{
+    background-color: rgb(151, 223, 199);
+}
+.Be, .Mg,.Ca,.Sr,.Ba,.Ra
+{
+    background-color: rgb(199, 243, 186);
+}
+.He,.Ne,.Ar,.Kr,.Xe,.Rn,.Og
+{
+    background-color: rgb(140, 187, 218);
+}
+.F,.Cl,.Br,.I,.At,.Ts
+{
+    background-color: rgba(243, 229, 181, 0.938);
+}
+.Al,.Ga,.In,.Sn,.Tl,.Pb,.Bi,.Nh,.Fl,.Mc,.Lv
+{
+    background-color: rgb(241, 197, 153);
+}
+.B,.Si,.Ge,.As,.Sb,.Te,.Po
+{
+    background-color: rgb(239, 247, 195);
+}
+.Sc,.Ti,.V,.Cr,.Mn,.Fe,.Co,.Ni,.Cu,.Zn,.Y,.Zr,.Nb,.Mo,.Tc,.Ru,.Rh,.Pd,.Ag,.Cd,.Lu,.Hf,.Ta,.W,.Re,.Os,.Ir,.Pt,.Au,.Hg,.Lr,.Rf,.Db,.Sg,.Bh,.Hs,.Mt,.Ds,.Rg,.Cn
+{
+    background-color: rgb(248, 167, 138);
+}
+.La,.Ce,.Pr,.Nd,.Pm,.Sm,.Eu,.Gd,.Tb,.Dy,.Ho,.Er,.Tm,.Yb
+{
+    background-color: rgb(221, 137, 137);
+}
+.Ac,.Th,.Pa,.U,.Np,.Pu,.Am,.Cm,.Bk,.Cf,.Es,.Fm,.Md,.No
+{
+    background-color: rgb(192, 104, 164);
+}
+.espace
+{
+    height: 35px;
+}
+
+@media screen and (max-width:1070px)
+{
+    h2
+    {
+       font-size: 14px;
+    }
+  td
+  {
+    font-size: 7px;
+  }
+  
+}
+
+@media screen and (max-width:900px)
+{
+    h2
+    {
+       font-size: 10px;
+    }
+    td
+    {
+       font-size: 5px;
+    }
+    
+}
+
+@media screen and (max-width:575px)
+{
+    .titre
+    {
+        border-bottom: 2px solid black;
+        width: 230px;
+       margin: auto;
+       
+    }
+    h1
+    {
+        font-size: 17px;
+    }
+    h2
+    {
+       font-size: 6px;
+    }
+    td
+    {
+       font-size: 2px;
+    }
+    
+}
